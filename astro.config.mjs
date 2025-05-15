@@ -16,7 +16,6 @@ import remarkCodeTitles from 'remark-code-titles'
 // https://astro.build/config
 export default defineConfig( /** @type {import('astro').AstroUserConfig} */{
   site: siteConfig.url,
-  },
   markdown: {
     syntaxHighlight: 'shiki',
     shikiConfig: {

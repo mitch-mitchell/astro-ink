@@ -9,6 +9,7 @@ import markdoc from "@astrojs/markdoc";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 import remarkCodeTitles from 'remark-code-titles'
+import { siteConfig } from "./src/site.config";
 
 // Full Astro Configuration API Documentation:
 // https://docs.astro.build/reference/configuration-reference
